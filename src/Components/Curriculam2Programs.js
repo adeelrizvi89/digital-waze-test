@@ -1,6 +1,7 @@
 import React from "react";
 
-const Curriculam2Programs = () => {
+const Curriculam2Programs = ({ stepNumber, date, steps }) => {
+  console.log("Adeel", steps);
   return (
     <>
       <div className="curriculam-section">
@@ -14,30 +15,22 @@ const Curriculam2Programs = () => {
                 fontSize: "16px",
               }}
             >
-              2
+              {stepNumber}
             </span>
-            <br></br>24 May 2021<br></br>
+            <br></br>
+            {date}
+            <br></br>
             <a href="#">create appoinment</a>
           </p>
           <div className="about-curriculam-step">
-            <div className="first-step-border">
-              <div className="first-step">
-                <h4>Psychoanalytic Couple Theraphy</h4>
+            {steps.map((x) => (
+              <div className="step">
+                <h4>{x.heading}</h4>
                 <span style={{ fontSize: "12px", color: "#858585" }}>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s,
+                  {x.text}
                 </span>
               </div>
-            </div>
-            <div className="second-step">
-              <h4>Psychoanalytic Couple Theraphy</h4>
-              <span style={{ fontSize: "12px", color: "#858585" }}>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s,
-              </span>
-            </div>
+            ))}
           </div>
         </div>
       </div>

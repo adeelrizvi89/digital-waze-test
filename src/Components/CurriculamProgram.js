@@ -1,5 +1,33 @@
 import React from "react";
-
+const curriculamProgrames = [
+  {
+    stepNumber: "1",
+    date: "24 May 2021",
+    step: [
+      {
+        firstStepHeading: "Psychoanalytic Couple Theraphy",
+        firstStepText:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      },
+    ],
+  },
+  {
+    stepNumber: "2",
+    date: "25 May 2021",
+    step: [
+      {
+        firstStepHeading: "Head and Neck Couple Theraphy",
+        firstStepText:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      },
+      {
+        secondStepHeading: "Psychoanalytic Couple Theraphy",
+        secondStepText:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      },
+    ],
+  },
+];
 const CurriculamProgram = () => {
   return (
     <>

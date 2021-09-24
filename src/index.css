@@ -26,7 +26,7 @@ code {
 .navBar {
   width: 8%;
   background-color: #396cf0;
-  border-top-right-radius: 10px;
+  border-top-right-radius: 20px;
   text-align: center;
   color: #fff;
 }
@@ -107,8 +107,12 @@ code {
 .section .leftSide img {
   width: 150px;
   height: 160px;
-  margin: 40px;
+  margin: 40px 40px 10px 40px;
   border: 2px solid #d6d6d7;
+}
+.section .leftSide p {
+  text-align: center;
+  font-weight: bold;
 }
 .section .rightSide {
   width: 79%;
@@ -163,8 +167,9 @@ code {
 }
 .curriculam-section {
   margin: 10px auto;
-
-  box-shadow: 5px 5px 5px #e4e4e4;
+  height: max-content;
+  box-shadow: 1px 1px 15px 1px #e4e4e4;
+  padding: 0px;
 }
 .curriculam-step {
   display: flex;
@@ -183,18 +188,20 @@ code {
 }
 .about-curriculam-step h4 {
   font-size: 14px;
-  margin-bottom: 5px;
+  margin: 0px 0px 5px 0px;
+  padding: none;
   color: #858585;
 }
-.about-curriculam-step .first-step {
+.about-curriculam-step .step {
   padding: 5px 40px;
+}
+.about-curriculam-step .step:not(:first-child) {
+  border-top: 1px solid #d1d0d0;
 }
 .about-curriculam-step .second-step {
   padding: 5px 40px;
 }
-.first-step-border {
-  border-bottom: 1px solid #d1d0d0;
-}
+
 .check {
   background-color: #858585;
 }
