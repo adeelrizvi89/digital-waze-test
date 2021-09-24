@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 import Header from "./Header";
 import Table from "./Table";
+import BusinessFlow from "./BusinessFlow";
 
 import WorkDropDown from "./WorkDropDown";
 
@@ -16,6 +17,7 @@ const ProgramAppoinment = () => {
         <section>
           <Table />
         </section>
+        <BusinessFlow />
       </div>
     </>
   );
