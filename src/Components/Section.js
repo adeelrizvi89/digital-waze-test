@@ -3,11 +3,14 @@ import Curriculam2Programs from "./Curriculam2Programs";
 import CurriculamContain from "./CurriculamContain";
 import CurriculamHeader from "./CurriculamHeader";
 import CurriculamProgram from "./CurriculamProgram";
+import capture from "../Images/capture.PNG";
 
 const Section = () => {
   return (
     <div className="section">
-      <div className="leftSide"></div>
+      <div className="leftSide">
+        <img src={capture}></img>
+      </div>
       <div className="rightSide">
         <CurriculamHeader />
         <section className="curriculam-container">
