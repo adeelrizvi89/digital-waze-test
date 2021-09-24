@@ -135,12 +135,15 @@ code {
   color: #858585;
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .fa-envelope,
 .fa-download,
 .fa-print {
+  font-size: 14px;
   margin-right: 10px;
+  color: #c8cfd8;
 }
 .curriculam-container {
   width: 100%;

@@ -8,7 +8,7 @@ const CurriculamHeader = () => {
         <div className="options">
           <div className="email">
             <i class="fas fa-envelope"></i>
-            <span>Send Email</span>
+            <span>Email Send</span>
           </div>
           <div className="download">
             <i class="fas fa-download"></i>
