@@ -1,4 +1,5 @@
 import React from "react";
+import TableChart from "./TableChart";
 import TableInput from "./TableInput";
 
 const Table = () => {
@@ -14,6 +15,7 @@ const Table = () => {
         </div>
       </div>
       <TableInput />
+      <TableChart />
     </div>
   );
 };

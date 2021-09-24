@@ -229,7 +229,114 @@ code {
   color: #858585;
 }
 .programeAppoinment-container {
-  background-color: tomato;
+  background-color: #f0f0f0;
   width: 92%;
+  height: 100vh;
+  padding: 25px;
   margin-left: 100px;
+}
+.button {
+  display: flex;
+}
+.button p {
+  padding: 5px 20px;
+  color: #fff;
+}
+.programeAppoinment-container header {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: #fff;
+  width: 200px;
+  border: 1px solid #d1d0d0;
+}
+.table {
+  background-color: #fff;
+  margin: 25px 0px;
+  padding: 25px;
+}
+.filter {
+  color: #3a6cf1;
+  background: #fff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3a6cf1;
+  font-size: 12px;
+}
+.fa-filter {
+  margin-right: 10px;
+}
+.tableInput {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.tableInput input {
+  width: 130px;
+  outline: none;
+  border: 1px solid #d1d0d0;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+.tableInput .filter {
+  color: #fff;
+  background: #3a6cf1;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3a6cf1;
+  font-size: 12px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0px;
+  border: 1px solid #d1d0d0;
+}
+tr {
+  border-bottom: 1px solid #d1d0d0;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+td {
+  padding: 15px 0px;
+  font-size: 12px;
+}
+
+th {
+  background-color: #f0f1f3;
+  color: #858585;
+  font-size: 12px;
+  font-weight: 500;
+  border-right: 1px solid #d1d0d0;
+  text-align: center;
+}
+td .filter {
+  color: #fff;
+  background: #3a6cf1;
+  padding: 5px;
+  width: 50px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid #3a6cf1;
+  font-size: 12px;
+}
+.fa-eye {
+  margin-right: 10px;
+  border-right: 1px solid #fff;
+  padding-right: 5px;
 }

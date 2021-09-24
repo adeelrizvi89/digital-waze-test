@@ -7,7 +7,9 @@ import ProgramAppoinment from "./ProgramAppoinment";
 const PageTwo = () => {
   return (
     <>
-      <div className="container">{/* <ProgramAppoinment /> */}</div>
+      <div className="container">
+        <ProgramAppoinment />
+      </div>
     </>
   );
 };
