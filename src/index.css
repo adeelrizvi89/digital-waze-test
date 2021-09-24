@@ -21,6 +21,7 @@ code {
 .container {
   max-width: 1200px;
   margin: 0px auto;
+  display: flex;
 }
 .navBar {
   width: 8%;
@@ -44,7 +45,9 @@ code {
   align-items: center;
   justify-content: space-between;
   width: 92%;
-  height: 100px;
+  height: 70px;
+  padding: 0 20px;
+  border-bottom: 1px solid #f5f5f5;
 }
 .searchBar {
   display: flex;
@@ -63,6 +66,7 @@ code {
 }
 .searchBar .fa-search {
   margin-right: 20px;
+  color: #858585;
 }
 .user {
   display: flex;
@@ -78,4 +82,9 @@ code {
 .user img {
   width: 30px;
   border-radius: 50%;
+}
+.fa-comment,
+.fa-bell {
+  font-size: 16px;
+  color: #858585;
 }

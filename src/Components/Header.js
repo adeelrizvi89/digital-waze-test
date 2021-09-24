@@ -8,13 +8,13 @@ const Header = () => {
         <i class="fas fa-search"></i>
         <input type="text" placeholder="Search"></input>
       </div>
-      <span className={{ fontsize: "16px", fontWeight: "500" }}>
+      <span style={{ fontSize: "14px", fontWeight: "500", color: "#8f8f8f" }}>
         Lorem ipsum
       </span>
-      <span className={{ fontsize: "16px", fontWeight: "500" }}>
+      <span style={{ fontSize: "14px", fontWeight: "500", color: "#8f8f8f" }}>
         Lorem ipsum
       </span>
-      <span className={{ fontsize: "16px", fontWeight: "500" }}>
+      <span style={{ fontSize: "14px", fontWeight: "500", color: "#8f8f8f" }}>
         Lorem ipsum
       </span>
       <i class="fas fa-comment"></i>
