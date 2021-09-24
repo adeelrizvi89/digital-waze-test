@@ -21,10 +21,9 @@ code {
 .container {
   max-width: 1200px;
   margin: 0px auto;
-  border: 1px solid black;
 }
 .navBar {
-  width: 70px;
+  width: 8%;
   height: 100vh;
   background-color: #396cf0;
   border-top-right-radius: 10px;
@@ -33,4 +32,15 @@ code {
 }
 .fa-bars {
   font-size: 26px;
+  margin: 20px 0px;
+}
+
+.navBar ul li {
+  font-size: 26px;
+  padding: 20px 0px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

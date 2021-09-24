@@ -1,12 +1,10 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
+import PageOne from "./Components/PageOne";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <Navbar />
-      </div>
+      <PageOne />
     </>
   );
 }
