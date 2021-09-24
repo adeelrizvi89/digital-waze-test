@@ -1,0 +1,48 @@
+import React from "react";
+
+const Curriculam2Programs = () => {
+  return (
+    <>
+      <div className="curriculam-section">
+        <div className="curriculam-step">
+          <p style={{ height: "150px", padding: "30px 0px" }}>
+            Step<br></br>
+            <span
+              style={{
+                fontWeight: "bold",
+                color: "black",
+                fontSize: "16px",
+              }}
+            >
+              2
+            </span>
+            <br></br>24 May 2021<br></br>
+            <a href="#">create appoinment</a>
+          </p>
+          <div className="about-curriculam-step">
+            <div className="first-step-border">
+              <div className="first-step">
+                <h4>Psychoanalytic Couple Theraphy</h4>
+                <span style={{ fontSize: "12px", color: "#858585" }}>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s,
+                </span>
+              </div>
+            </div>
+            <div className="second-step">
+              <h4>Psychoanalytic Couple Theraphy</h4>
+              <span style={{ fontSize: "12px", color: "#858585" }}>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Curriculam2Programs;
