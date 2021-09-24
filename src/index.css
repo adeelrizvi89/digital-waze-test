@@ -93,23 +93,61 @@ code {
 }
 .section {
   display: flex;
+  justify-content: space-between;
 }
 .section .leftSide {
   width: 30%;
+  height: 90vh;
   background-color: aqua;
 }
 .section .rightSide {
-  width: 70%;
-  background-color: blue;
+  width: 68%;
 }
 .section header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
+  height: 50px;
+  padding: 0px 20px 5px 0px;
 }
-
-.rightSide .email,
+.options {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+.email,
 .download,
 .print {
-  color: black;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.fa-envelope,
+.fa-download,
+.fa-print {
+  margin-right: 10px;
+}
+.curriculam-container {
+  width: 100%;
+  height: 700px;
+  border: 1px solid #858585;
+  padding: 20px 15px 0px 15px;
+}
+.curriculam-container h4 {
+  font-size: 20px;
+}
+.curriculam-text {
+  color: #858585;
+  font-size: 12px;
+  width: 90%;
+  padding-top: 10px;
+}
+.curriculam-date {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #858585;
+  font-size: 14px;
 }
