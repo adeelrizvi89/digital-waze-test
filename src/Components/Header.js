@@ -21,7 +21,7 @@ const Header = () => {
       <i class="fas fa-bell"></i>
       <div className="user">
         <img src={Avatar}></img>
-        <span>John Smith</span>
+        <span style={{ fontSize: "12px" }}>John Smith</span>
         <i class="fas fa-caret-down"></i>
       </div>
     </div>
