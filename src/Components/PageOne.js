@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Header";
+import MainSection from "./MainSection";
 import Navbar from "./Navbar";
 
 const PageOne = () => {
   return (
     <div className="container">
       <Navbar />
-      <Header />
+      <MainSection />
     </div>
   );
 };
