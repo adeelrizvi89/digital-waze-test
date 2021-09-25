@@ -395,7 +395,8 @@ form input {
   width: 120px;
   text-align: center;
   padding: 10px 0;
-  border-radius: 5px;
+  border-radius: 3px;
+  font-size: 14px;
   margin-right: 20px;
 }
 .complete {
@@ -404,5 +405,6 @@ form input {
   width: 120px;
   text-align: center;
   padding: 10px 0;
-  border-radius: 5px;
+  border-radius: 3px;
+  font-size: 14px;
 }
