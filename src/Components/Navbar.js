@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -6,15 +7,21 @@ const Navbar = () => {
       <div className="navBar">
         <i class="fas fa-bars"></i>
         <ul>
-          <li>
-            <i class="fa-solid fa-bars-staggered"></i>
-          </li>
+          {/* <li>
+            <Link to="">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </Link>
+          </li> */}
 
           <li>
-            <i class="fas fa-window-maximize"></i>
+            <Link to="">
+              <i class="fas fa-window-maximize"></i>
+            </Link>
           </li>
           <li>
-            <i class="fas fa-user-cog"></i>
+            <Link to="/pageTwo">
+              <i class="fas fa-user-cog"></i>
+            </Link>
           </li>
           <li>
             <i class="fas fa-cog"></i>
