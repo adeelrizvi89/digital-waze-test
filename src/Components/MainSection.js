@@ -7,7 +7,6 @@ const MainSection = () => {
   return (
     <>
       <div className="mainSection">
-        <Header />
         <Section />
         <BusinessFlow />
       </div>

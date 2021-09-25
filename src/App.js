@@ -1,17 +1,29 @@
 import "./App.css";
 import PageOne from "./Components/PageOne";
 import PageTwo from "./Components/PageTwo";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NewAppointmentForm from "./Components/NewAppointmentForm";
+import Navbar from "./Components/Navbar";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-      <Router>
-        <Route path="" component={PageOne} />
-        <Route path="/pageTwo" component={PageTwo} />
-      </Router>
-      <NewAppointmentForm />
+      <div className="container">
+        <Router>
+          <Navbar />
+          <Header />
+          <Switch>
+            <Route path="/pageTwo" component={PageTwo} />
+            <Route path="" component={PageOne} exact />
+          </Switch>
+        </Router>
+        {/* <PageOne /> */}
+        {/* <PageTwo /> */}
+        {/* <MainSection /> */}
+      </div>
+
+      {/* <NewAppointmentForm /> */}
     </>
   );
 }

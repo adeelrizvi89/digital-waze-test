@@ -32,6 +32,15 @@ code {
   color: #fff;
   position: fixed;
 }
+.routerLink {
+  color: #fff;
+}
+.routerLink:active,
+.routerLink:hover {
+  padding: 15px 20px;
+  border-radius: 15px;
+  background-color: #c8cfd8;
+}
 .fa-bars {
   font-size: 26px;
   margin: 20px 0px;
@@ -54,6 +63,7 @@ code {
   border-bottom: 1px solid #f5f5f5;
   position: fixed;
   width: 58%;
+  margin-left: 100px;
   background-color: #fff;
 }
 .searchBar {

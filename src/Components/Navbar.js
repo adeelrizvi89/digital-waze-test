@@ -14,12 +14,19 @@ const Navbar = () => {
           </li> */}
 
           <li>
-            <Link to="">
+            <Link to="" className="routerLink">
               <i class="fas fa-window-maximize"></i>
             </Link>
           </li>
           <li>
-            <Link to="/pageTwo">
+            <Link
+              to="/pageTwo"
+              className="routerLink"
+              activeStyle={{
+                fontWeight: "bold",
+                color: "red",
+              }}
+            >
               <i class="fas fa-user-cog"></i>
             </Link>
           </li>
