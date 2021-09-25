@@ -14,6 +14,7 @@ function App() {
           <Navbar />
           <Header />
           <Switch>
+            <Route path="/modal" component={NewAppointmentForm} />
             <Route path="/pageTwo" component={PageTwo} />
             <Route path="" component={PageOne} exact />
           </Switch>
@@ -22,8 +23,6 @@ function App() {
         {/* <PageTwo /> */}
         {/* <MainSection /> */}
       </div>
-
-      {/* <NewAppointmentForm /> */}
     </>
   );
 }

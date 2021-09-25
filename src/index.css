@@ -350,12 +350,14 @@ td .filter {
   padding-right: 5px;
 }
 .newAppoinment {
-  background-color: #ffe0e0;
+  border: 1px solid #c8cfd8;
+  box-shadow: 1px 1px 15px #c8cfd8;
   width: 700px;
   height: 800px;
   margin: 0px auto;
   border-radius: 10px;
   padding: 25px 50px;
+  margin-top: 100px;
 }
 .newAppoinment form {
   margin-top: 25px;

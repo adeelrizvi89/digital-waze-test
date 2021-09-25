@@ -19,19 +19,14 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to="/pageTwo"
-              className="routerLink"
-              activeStyle={{
-                fontWeight: "bold",
-                color: "red",
-              }}
-            >
+            <Link to="/pageTwo" className="routerLink">
               <i class="fas fa-user-cog"></i>
             </Link>
           </li>
           <li>
-            <i class="fas fa-cog"></i>
+            <Link to="/modal" className="routerLink">
+              <i class="fas fa-cog"></i>
+            </Link>
           </li>
           <li>
             <i class="fas fa-chart-bar"></i>
