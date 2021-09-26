@@ -377,8 +377,6 @@ form input {
   width: 280px;
   height: 35px;
   padding: 0px 5px;
-  border-radius: 5px;
-  border: 1px solid #d1d0d0;
   margin-bottom: 20px;
 }
 .formInput {
@@ -435,4 +433,15 @@ form input {
   border-radius: 5px;
   border: 1px solid #d1d0d0;
   margin-bottom: 20px;
+}
+textarea {
+  min-height: 100px;
+  width: 100%;
+}
+
+input,
+textarea,
+select {
+  border-radius: 5px;
+  border: 1px solid #d1d0d0;
 }

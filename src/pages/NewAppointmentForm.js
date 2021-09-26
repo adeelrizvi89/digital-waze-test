@@ -50,10 +50,7 @@ const NewAppointmentForm = () => {
             <FormTextBox label={"Address"} placeholder={"Address"} />
           </div>
           <div>
-            <p>
-              <label>Paitent Note</label>
-            </p>
-            <input type="text" style={{ height: "100px" }}></input>
+            <FormTextBox label={"Paitent Note"} isMultiLines={true} />
           </div>
           <div className="formButton">
             <div className="cancel">Cancel</div>

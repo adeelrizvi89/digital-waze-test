@@ -1,6 +1,7 @@
 import React from "react";
+import image from "../Images/capture.PNG";
 
-const SectionLeftSide = ({ image }) => {
+const SectionLeftSide = () => {
   return (
     <>
       {" "}

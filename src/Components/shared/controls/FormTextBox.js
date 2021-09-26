@@ -7,10 +7,14 @@ const FormTextBox = ({ label, placeholder, isMultiLines }) => {
         <p>
           <label>{label}</label>
         </p>
-        <input
-          type={isMultiLines ? "textarea" : "text"}
-          placeholder={placeholder}
-        ></input>
+        {isMultiLines ? (
+          <textarea placeholder={placeholder}></textarea>
+        ) : (
+          <input
+            type={isMultiLines ? "textarea" : "text"}
+            placeholder={placeholder}
+          ></input>
+        )}
       </div>
     </>
   );

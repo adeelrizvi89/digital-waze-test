@@ -7,7 +7,7 @@ import SectionRightSide from "./SectionRightSide";
 const Section = () => {
   return (
     <div className="section">
-      <SectionLeftSide image={capture} />
+      <SectionLeftSide />
       <SectionRightSide />
     </div>
   );
