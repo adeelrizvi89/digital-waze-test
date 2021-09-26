@@ -397,26 +397,41 @@ form input {
 }
 .formButton {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-end;
+
   margin: 20px 0;
 }
 .cancel {
   background-color: #858585;
   color: #fff;
   width: 120px;
+  height: 40px;
   text-align: center;
   padding: 10px 0;
   border-radius: 3px;
   font-size: 14px;
   margin-right: 20px;
+  cursor: pointer;
 }
-.complete {
+.submit {
   background-color: #3a6cf1;
   color: #fff;
   width: 120px;
+  height: 40px;
   text-align: center;
   padding: 10px 0;
   border-radius: 3px;
   font-size: 14px;
+  cursor: pointer;
+}
+.selectBox {
+  margin-top: 5px;
+  outline: none;
+  width: 280px;
+  height: 35px;
+  padding: 0px 5px;
+  border-radius: 5px;
+  border: 1px solid #d1d0d0;
+  margin-bottom: 20px;
 }

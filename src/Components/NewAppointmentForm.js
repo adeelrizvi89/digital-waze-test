@@ -1,4 +1,7 @@
 import React from "react";
+import FormDatePicker from "./FormDatePicker";
+import FormSelect from "./FormSelect";
+import FormTextBox from "./FormTextBox";
 
 const NewAppointmentForm = () => {
   return (
@@ -6,104 +9,45 @@ const NewAppointmentForm = () => {
       <h2>New Program Appoinment</h2>
       <form>
         <div>
+          <FormTextBox label="Paitent" placeholder="John Smith" />
           <div>
-            <p>
-              <label>Paitent Name</label>
-            </p>
-            <input type="text" placeholder="John Smith"></input>
+            <FormDatePicker label={"Date"} />
           </div>
           <div>
-            <p>
-              <label>Date</label>
-            </p>
-            <div className="formInput" style={{ backgroundColor: "#c8cfd8" }}>
-              <p>24 May 2021</p>
-              <i class="fas fa-calendar-week"></i>
-            </div>
+            <FormSelect label={"Department"} />
           </div>
           <div>
-            <p>
-              <label>Department</label>
-            </p>
-            <div className="formInput">
-              <p>Select</p>
-              <i class="fas fa-caret-down"></i>
-            </div>
+            <FormSelect label={"Doctor Available"} />
           </div>
           <div>
-            <p>
-              <label>Doctor Available</label>
-            </p>
-            <div className="formInput">
-              <p>Select</p>
-              <i class="fas fa-caret-down"></i>
-            </div>
+            <FormTextBox label={"Phone"} placeholder={"0344-XXXXXXXX"} />
           </div>
           <div>
-            <p>
-              <label>Phone</label>
-            </p>
-            <input type="text"></input>
+            <FormTextBox label={"Email"} placeholder={"abc@excample.com"} />
           </div>
           <div>
-            <p>
-              <label>Email</label>
-            </p>
-            <input type="text"></input>
-          </div>
-          <div>
-            <p>
-              <label>Note</label>
-            </p>
-            <input type="text" style={{ height: "100px" }}></input>
+            <FormTextBox label={"Note"} isMultiLines={true} />
           </div>
         </div>
         <div>
           <div>
-            <p>
-              <label>Lorem ipsum</label>
-            </p>
-            <div className="formInput">
-              <p>Select</p>
-              <i class="fas fa-caret-down"></i>
-            </div>
+            <FormSelect label={"Lorem ipsum"} />
           </div>
           <div>
-            <p>
-              <label>Gender</label>
-            </p>
-            <div className="formInput">
-              <p>Select</p>
-              <i class="fas fa-caret-down"></i>
-            </div>
+            <FormSelect label={"Gender"} />
           </div>
           <div>
-            <p>
-              <label>Doctor</label>
-            </p>
-            <div className="formInput">
-              <p>Select</p>
-              <i class="fas fa-caret-down"></i>
-            </div>
+            <FormSelect label={"Doctor"} />
           </div>
           <div>
-            <p>
-              <label>Shedule</label>
-            </p>
-            <input type="text"></input>
+            <FormTextBox label={"Shedule"} placeholder={"Shedule"} />
           </div>
           <div>
-            <p>
-              <label>Type</label>
-            </p>
-            <input type="text" style={{ backgroundColor: "#c8cfd8" }}></input>
+            <FormTextBox label={"Type"} />
           </div>
 
           <div>
-            <p>
-              <label>Address</label>
-            </p>
-            <input type="text"></input>
+            <FormTextBox label={"Address"} placeholder={"Address"} />
           </div>
           <div>
             <p>
@@ -111,12 +55,12 @@ const NewAppointmentForm = () => {
             </p>
             <input type="text" style={{ height: "100px" }}></input>
           </div>
+          <div className="formButton">
+            <div className="cancel">Cancel</div>
+            <input type="submit" value="Complete" className="submit" />
+          </div>
         </div>
       </form>
-      <div className="formButton">
-        <div className="cancel">Cancel</div>
-        <div className="complete">Complete</div>
-      </div>
     </div>
   );
 };
