@@ -1,8 +1,8 @@
 import "./App.css";
-import PageOne from "./Components/PageOne";
-import PageTwo from "./Components/PageTwo";
+import PageOne from "./pages/PageOne";
+import PageTwo from "./pages/PageTwo";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NewAppointmentForm from "./Components/NewAppointmentForm";
+import NewAppointmentForm from "./pages/NewAppointmentForm";
 import Navbar from "./Components/shared/layout/Navbar";
 import Header from "./Components/shared/layout/Header";
 

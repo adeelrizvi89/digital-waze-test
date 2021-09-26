@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./Button";
-import Table from "./Table";
-import BusinessFlow from "./BusinessFlow";
-import WorkDropDown from "./WorkDropDown";
+import Button from "../Components/Button";
+import Table from "../Components/Table";
+import BusinessFlow from "../Components/BusinessFlow";
+import WorkDropDown from "../Components/WorkDropDown";
 
 const PageTwo = () => {
   return (
