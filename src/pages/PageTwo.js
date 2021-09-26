@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Components/Button";
-import Table from "../Components/Table";
+import AppTable from "../Components/AppTable";
 import BusinessFlow from "../Components/BusinessFlow";
 import WorkDropDown from "../Components/WorkDropDown";
 
@@ -14,7 +14,7 @@ const PageTwo = () => {
             <WorkDropDown />
           </header>
           <section>
-            <Table />
+            <AppTable title={"Program Initiation Appoinments"} />
           </section>
           <BusinessFlow />
         </div>

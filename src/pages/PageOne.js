@@ -1,8 +1,16 @@
 import React from "react";
-import MainSection from "../Components/MainSection";
+import ProgramCurriculam from "../Components/ProgramCurriculam";
+import BusinessFlow from "../Components/BusinessFlow";
 
 const PageOne = () => {
-  return <MainSection />;
+  return (
+    <>
+      <div className="mainSection">
+        <ProgramCurriculam />
+        <BusinessFlow />
+      </div>
+    </>
+  );
 };
 
 export default PageOne;

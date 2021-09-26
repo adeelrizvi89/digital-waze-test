@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import Curriculam2Programs from "./Curriculam2Programs";
-import CurriculamContain from "./CurriculamContain";
-import CurriculamHeader from "./CurriculamHeader";
-import CurriculamProgram from "./CurriculamProgram";
+import ProgramDetail from "./ProgramDetail";
+import ProgramDescription from "./ProgramDescription";
+import ProgramHeader from "./ProgramHeader";
 
 const SectionRightSide = () => {
   const curriculamProgrames = [
@@ -77,12 +76,12 @@ const SectionRightSide = () => {
   return (
     <>
       <div className="rightSide">
-        <CurriculamHeader />
+        <ProgramHeader />
         <section className="curriculam-container">
-          <CurriculamContain />
-          {/* <CurriculamProgram /> */}
+          <ProgramDescription />
+
           {curriculamProgrames.map((x) => (
-            <Curriculam2Programs
+            <ProgramDetail
               stepNumber={x.stepNumber}
               date={x.date}
               steps={x.steps}

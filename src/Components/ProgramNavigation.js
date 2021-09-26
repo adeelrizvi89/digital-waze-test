@@ -1,7 +1,7 @@
 import React from "react";
 import image from "../Images/capture.PNG";
 
-const SectionLeftSide = () => {
+const ProgramNavigation = () => {
   return (
     <>
       {" "}
@@ -13,4 +13,4 @@ const SectionLeftSide = () => {
   );
 };
 
-export default SectionLeftSide;
+export default ProgramNavigation;
