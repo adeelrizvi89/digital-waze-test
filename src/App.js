@@ -3,8 +3,8 @@ import PageOne from "./Components/PageOne";
 import PageTwo from "./Components/PageTwo";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NewAppointmentForm from "./Components/NewAppointmentForm";
-import Navbar from "./Components/Navbar";
-import Header from "./Components/Header";
+import Navbar from "./Components/shared/layout/Navbar";
+import Header from "./Components/shared/layout/Header";
 
 function App() {
   return (
@@ -19,9 +19,6 @@ function App() {
             <Route path="" component={PageOne} exact />
           </Switch>
         </Router>
-        {/* <PageOne /> */}
-        {/* <PageTwo /> */}
-        {/* <MainSection /> */}
       </div>
     </>
   );

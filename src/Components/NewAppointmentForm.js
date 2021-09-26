@@ -1,7 +1,7 @@
 import React from "react";
-import FormDatePicker from "./FormDatePicker";
-import FormSelect from "./FormSelect";
-import FormTextBox from "./FormTextBox";
+import FormDatePicker from "./shared/controls/FormDatePicker";
+import FormSelect from "./shared/controls/FormSelect";
+import FormTextBox from "./shared/controls/FormTextBox";
 
 const NewAppointmentForm = () => {
   return (
